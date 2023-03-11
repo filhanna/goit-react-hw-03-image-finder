@@ -1,7 +1,6 @@
 import { Component } from "react";
 import { ImageGallery } from "./ImageGallery/ImageGallery";
 import { Searchbar } from "./Searchbar/Searchbar";
-import { Loader } from "./Loader/Loader";
 import { Modal } from "./Modal/Modal";
 
 
