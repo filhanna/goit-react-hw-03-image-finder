@@ -32,7 +32,7 @@ export class App extends Component {
         <ImageGallery serch={this.state.query}  setModalImage={this.setModalImage} />
         {this.state.isOpenModal && (
           <Modal onToggleModal={this.onToggleModal}>
-            <img src={this.state.modalImage} />
+            <img src={this.state.modalImage} alt='' />
           </Modal>
         )}
       </>
