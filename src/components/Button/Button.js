@@ -1,8 +1,8 @@
 import { ButtonStyled } from 'components/Button/Button.styled';
 
-export function Button({ onClick }) {
+export function Button(props) {
   return (
-    <ButtonStyled onClick={onClick} type="button">
+    <ButtonStyled {...props} type="button">
       Load more
     </ButtonStyled>
   );
